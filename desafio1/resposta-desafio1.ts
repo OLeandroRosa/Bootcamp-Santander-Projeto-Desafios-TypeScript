@@ -41,4 +41,47 @@ let employee4: employee = {
 
 //5° Resposta - Aplicação dos conceitos
 
+const codigo = document.getElementById('codigoFuncionario') as HTMLInputElement;
+const nome = document.getElementById('nomeFuncionario') as HTMLInputElement;
+const email = document.getElementById('emailFuncionario')as HTMLInputElement;
+const phone = document.getElementById('phoneFuncionario')as HTMLInputElement;
 
+const enviar = document.getElementById('enviar');
+const lista = document.getElementById('list');
+
+if(enviar){
+    enviar.addEventListener('click',()=>{
+
+        if(codigo && nome && email && phone ){
+            cadastraFuncionario(Number(codigo.value),nome.value,email.value,Number(phone.value));
+
+        }
+
+    });
+}
+
+function cadastraFuncionario(codigo:number,nome:string, email:string,phone:number){
+    console.log('Olaaa');
+
+    const novoFuncionario = document.createElement('li');
+
+    const codFunc = document.createTextNode(`código:${codigo}; nome: ${nome}; email: ${email}; phone: ${phone}`);
+    // const codFunc = document.createTextNode(codigo.toString());
+    // const nomeFunc = document.createTextNode(nome);
+    // const emailFunc = document.createTextNode(email);
+    // const phoneFunc = document.createTextNode(phone.toString());
+    lista?.appendChild(novoFuncionario);
+
+    novoFuncionario.appendChild(codFunc);
+    // novoFuncionario.appendChild(nomeFunc);
+    // novoFuncionario.appendChild(emailFunc);
+    // novoFuncionario.appendChild(phoneFunc);
+    
+
+
+
+
+
+
+    
+}
