@@ -44,5 +44,5 @@ let pessoa4: Pessoas = {
     profissao : Trabalho.Marceneiro,
 };
 
-// PArte do adicional do projeto , criar campos para adicionar mais perfils e criar um menu lateral
+// Parte do adicional do projeto , criar campos para adicionar mais perfils e criar um menu lateral
 // que mostra as opções que ja foram criadas
