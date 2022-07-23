@@ -22,8 +22,8 @@ let employee2: {code: number, name: string} = {
 interface employee{
     code:number,
     name:string,
-    hiring_date?:Date;
-    email?:string
+    email?:string,
+    phone?:number,
 
 
 };
@@ -36,7 +36,9 @@ employee3.name = 'John';
 let employee4: employee = {
     code:10,
     name:'John',
-    hiring_date:new Date(1995, 8, 1),
+
 }
 
-console.log(employee4.hiring_date);
+//5° Resposta - Aplicação dos conceitos
+
+

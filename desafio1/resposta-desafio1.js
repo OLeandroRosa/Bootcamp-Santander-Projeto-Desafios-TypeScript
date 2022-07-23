@@ -18,6 +18,5 @@ employee3.code = 10,
 let employee4 = {
     code: 10,
     name: 'John',
-    hiring_date: new Date(1995, 8, 1),
 };
-console.log(employee4.hiring_date);
+//5° Resposta - Aplicação dos conceitos

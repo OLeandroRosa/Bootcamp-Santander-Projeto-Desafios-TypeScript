@@ -3,6 +3,73 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: sans-serif;
-    font-size: 14px;
+    font-family: Helvetica,Arial, sans-serif;
+
+}
+
+
+body{
+    background-color: rgb(66,66,66);
+    color: red;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+#titulo {
+    color: rgb(255,255,255);
+    background-color: rgb(245,152,39);
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 1rem;
+}
+
+.flex-container{
+    max-width: max-content;
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap:30px;
+    background-color: rgb(108,107,115);
+    color:  rgb(245,152,39);
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+
+.form{
+    max-width: 80%;
+}
+
+button{
+    max-width: 60px;
+    padding: 5px;
+
+}
+.flex-container button{
+
+    max-width: 600px;
+    padding: 5px 20px;
+    background-color: rgb(245,152,39);
+    color: rgb(255,255,255);
+    align-self: center;
+    font-size:1.2rem;
+    border-radius: 30px;
+    border: 2px solid rgb(255,255,255);
+    cursor: pointer;
+}
+
+input{
+    padding: 5px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    height: 30px;
+
+
 }

@@ -4,14 +4,26 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
 
         <title>Desafio 1 - TypeScript</title>
     </head>
     <body>
-        <div class="titulo">
+        <header id="titulo" class="titulo">
             <h1>Cadastro de Funcionários</h1>
-        </div>
+        </header>
+
+        <section class="flex-container">
+            <span>Código: <input class="form" id="codigoFuncionario" type="text" placeholder="Digite o código"></span>
+            <span>Nome: <input class="form" id="nomeFuncionario" type="text" placeholder="Digite o nome"></span>
+            <span>Email: <input class="form" id="emailFuncionario" type="text" placeholder="Digite o Email"></span>
+            <span>Telefone: <input class="form" id="phoneFuncionario" type="text" placeholder="Digite o Telefone"></span>
+            <button type="submit">Enviar!</button>
+
+
+        </section>
+
         
-        <script src="./resposta-desafio1.ts"></script>
+        <script src="./resposta-desafio1.js"></script>
     </body>
 </html>
